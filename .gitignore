@@ -89,7 +89,7 @@ typings/
 ### direnv
 .envrc
 
-### lib/
-lib/*.js
-lib/*.ts
-lib/*.map
+### dist/
+dist/*.js
+dist/*.ts
+dist/*.map

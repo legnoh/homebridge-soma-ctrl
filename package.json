@@ -2,22 +2,40 @@
   "name": "homebridge-soma-ctrl",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts",
+    "dist/*.map"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf ./dist/* && tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/legnoh/homebridge-soma-ctrl.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "Ryoma Kai <legknmj@icloud.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/legnoh/homebridge-soma-ctrl/issues"
   },
   "homepage": "https://github.com/legnoh/homebridge-soma-ctrl#readme",
+  "engines": {
+    "node": ">=8.0",
+    "homebridge": ">=0.2.0"
+  },
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "hap-nodejs": "^0.4.49",
+    "homebridge": "^0.4.48",
+    "typescript": "^3.4.2"
   }
 }

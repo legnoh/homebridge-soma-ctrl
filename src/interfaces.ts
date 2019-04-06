@@ -1,5 +1,5 @@
 export interface Devices {
-
+    [id: string]: Device;
 }
 
 export interface Device {
