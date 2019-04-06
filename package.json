@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-soma-ctrl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legnoh/homebridge-soma-ctrl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legnoh/homebridge-soma-ctrl/issues"
+  },
+  "homepage": "https://github.com/legnoh/homebridge-soma-ctrl#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
