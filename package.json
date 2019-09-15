@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/node": "^11.13.0",
     "hap-nodejs": "^0.4.49",
-    "homebridge": "^0.4.48",
+    "homebridge": "^0.4.50",
     "typescript": "^3.4.2"
   }
 }
